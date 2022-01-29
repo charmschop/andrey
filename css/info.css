@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
+body{
+    background-color: #26335D;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.logo a{
+    text-decoration: none;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 13px;
+}
+.links:hover{
+    color: #8D5CF6;
+}
+
+.head-btn{
+    padding-left: 100px;
+}
+
+.join{
+    background: #8D5CF6;
+    border-radius: 5px;
+    border: none;
+    width: 137px;
+    height: 52px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 300px;
+    
+}
+.join:hover{
+        background-color: white;
+        color: #8D5CF6;
+}   
+.info-blocs{
+    margin-top: 45px;
+}
+.info-blocs h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 700px;
+    text-align: center;
+}
+.info-block{
+    width: 65%;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    margin: 70px auto;
+    border-radius: 7px;
+    box-shadow: 100% rgba(0, 0, 0, .2);
+}
+.info-block:hover{
+    transform: scale(1.2);
+}
+.info-blocs h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.info-blocs h3{
+    color: #737373;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 15px 0px 15px;
+    text-align: justify;
+    color: #737373;
+}
+.about-contacts-main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.block-social{
+    width: 65%;
+    background-color: white;
+    height: 610px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 100% rgba(0, 0, 0, .2); 
+}
+.text-social{
+    margin-top: 30px;
+}
+.text-social h4{
+    font-size: 20px;
+    color: #8D5CF6;
+    font-weight: 700;
+}
+.social-state{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-info{
+    padding-right: 20px;
+    padding-left: 30px;
+}
+.about-ofice{
+    margin-top: 30px;
+}
+.about-ofice h4{
+    font-size: 20px;
+    color: #8D5CF6;
+    font-weight: 700;
+}
+.map{
+   margin-top: 30px;    
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.text-footer h3{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.social-links{
+    display: flex;
+}
+.social{
+    padding-left: 30px;
+}
+.social h1{
+    padding-left: 5px;
+    font-size: 16px;
+}

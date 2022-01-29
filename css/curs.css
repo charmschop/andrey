@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
+body{
+    background-color: #26335D;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.logo a{
+    text-decoration: none;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 13px;
+}
+.links:hover{
+    color: #8D5CF6;
+}
+
+.head-btn{
+    padding-left: 100px;
+}
+
+.join{
+    background: #8D5CF6;
+    border-radius: 5px;
+    border: none;
+    width: 137px;
+    height: 52px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 300px;
+    
+}
+.join:hover{
+        background-color: white;
+        color: #8D5CF6;
+}   
+.curs-main{
+    margin-top: 45px;   
+}
+.curs-text{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.curs-text h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.curs-text p{
+    font-size: 14px;
+    color: white;
+}
+.curs-block{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-img img{
+    width: 349px;
+    height: 300px;
+}
+.curs-info-block{
+    width: 348px;
+    height: 640px;
+    background-color: white;    
+}
+.curs-text-info{
+    margin: 25px 0px 10px 0px;
+}
+.curs-text-info h4{
+    margin-left: 10px;
+    color: #8D5CF6;
+    font-size: 14px;
+    font-weight: bold;
+}
+.curs-text-info h5{
+    font-weight: bold;
+    font-size: 16px;
+    color: #252B42;
+    margin-left: 10px;
+}
+.curs-text-info p{
+    font-size: 14px;
+    color: #737373;;
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+}
+.sell{
+    display: flex;
+}
+.sell-h1 h1{
+    font-size: 14px;
+    margin-left: 5px;
+    padding-left: 5px;
+    color: #FF7B52;
+}
+.btn{
+    border: 1px solid #8D5CF6;
+    border-radius: 37px;
+    color: #8D5CF6;
+}
+.btn:hover{
+    background-color: #8D5CF6;
+    color: white;
+}
+.button{
+    margin-left: 5px;
+}
+.vector-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.vector-icons img{
+    width: 40px;
+    height: 40px;
+}
+.btn-more{
+    margin-top: 100px;
+    text-align: center;
+}
+.btn-curs{
+    width: 30%;
+    border-radius: 30px;
+    background-color: #8D5CF6;
+    color: white;
+    font-size: 17px;
+    border: none;
+    height: 50px;
+}
+.btn-curs:hover{
+    background-color: white;
+    color: #8D5CF6;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 30px 0px;
+}
+.text-footer h3{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.social-links{
+    display: flex;
+}
+.social{
+    padding-left: 30px;
+}
+.social h1{
+    padding-left: 5px;
+    font-size: 16px;
+}

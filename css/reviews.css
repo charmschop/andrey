@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
+body{
+    background-color: #26335D;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.logo a{
+    text-decoration: none;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 13px;
+}
+.links:hover{
+    color: #8D5CF6;
+}
+
+.head-btn{
+    padding-left: 100px;
+}
+
+.join{
+    background: #8D5CF6;
+    border-radius: 5px;
+    border: none;
+    width: 137px;
+    height: 52px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 300px;
+    
+}
+.join:hover{
+        background-color: white;
+        color: #8D5CF6;
+}
+.main-reviews{
+    margin: 50px;
+}
+.reviews-text{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.reviews-text h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.reviews-text p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.reviews-bloks-1{
+    display: flex;
+    justify-content: space-around;
+}
+.reviews-info{
+    background-color: white;
+    margin-right: 30px;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+.reviews-info:hover{
+    transform: scale(1.2);
+    margin-top: 10px;
+}
+.star-img{
+    margin-top: 55px;
+}
+.star{
+    padding-left: 5px;
+}
+.text-reviews{
+    margin-top: 15px;
+}
+.text-reviews p{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #737373;
+}
+.block-man{ 
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+.face-man{
+    margin-right: 15px;
+}
+.info-man h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #8D5CF6;
+}
+.info-man p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #252B42;
+}
+.reviews-bloks-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.massage-feedback{
+    padding: 50px 0px;
+}
+.massage-text{
+    text-align: center ;
+}
+.massage-text h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.massage-text p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box{
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+}
+.email{
+    margin: 30px 0px 30px 0px;
+}
+.but{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: #26335D;
+    font-size: 14px;
+    font-weight: 700;
+}
+.comment{
+    border-radius: 10px;
+    border: none;
+    color: #26335D;
+    font-size: 14px;
+    font-weight: 700;
+    width: 50%;
+}
+.text-rew{
+    max-width: 50%;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.button{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:#8D5CF6;
+    font-size: 17px;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: white;
+    color: #8D5CF6;
+    font-weight: 800;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 30px 0px
+}
+.text-footer h3{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.social-links{
+    display: flex;
+}
+.social{
+    padding-left: 30px;
+}
+.social h1{
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+
