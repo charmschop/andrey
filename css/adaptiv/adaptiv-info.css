@@ -34,7 +34,10 @@
     }
 }
 @media (max-width: 576px){
-    .about-contacts{
+.info-block{
+        height: 600px;
+    }
+.about-contacts{
         height: 600px;
     }
     .foot{
