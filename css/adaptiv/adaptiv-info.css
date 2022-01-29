@@ -35,7 +35,7 @@
 }
 @media (max-width: 576px){
     .about-contacts{
-        height: 600px;
+        height: 800px;
         width: 100%;
         margin: 0 auto;
     }
@@ -43,10 +43,10 @@
         display: flex;
         justify-content: space-around;
         margin-top: 150px;
-        width: 109%;
+        width: 100%;
     }
     .block-social{
-        height: 450px;
+        height: 800px;
         width: 100%;
     }
 }
