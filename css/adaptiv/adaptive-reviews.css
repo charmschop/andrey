@@ -1,0 +1,80 @@
+@media (max-width: 993px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navlinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .links{
+        margin-top: 3px;
+    }
+    .join{
+        margin-right: 105px;
+        margin-top: 10px;
+        max-height: 40px;
+        max-width: 100px;
+    }
+    .reviews-bloks-1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .reviews-bloks-2{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .reviews-info{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        margin: 60px 0px 30px 0px;
+    }
+}
+@media (max-width: 789px){
+    .reviews-bloks-1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .reviews-bloks-2{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .reviews-info{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 576px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .text-rew{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .still{
+
+        margin-top: 100px;
+    }
+}

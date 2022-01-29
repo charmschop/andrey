@@ -1,0 +1,119 @@
+@media (max-width: 993px){
+        .about-main{
+            padding: 0 auto;
+            align-items: center;
+            }
+        .about-text {
+            text-align: center;
+            padding: 0 auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-btn{
+            align-items: center;
+            padding: 0 auto;
+            justify-content: center;
+        }
+        .info-bloks{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .info{
+            margin-left: 20px;  
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+        }
+        .logo{
+            margin: 0 auto;
+            text-align: center;
+        }
+        .navlinks{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        .links{
+            margin-top: 3px;
+        }
+        .join{
+            margin-right: 105px;
+            margin-top: 10px;
+            max-height: 40px;
+            max-width: 100px;
+        }
+        .foot{
+            display: flex;
+            justify-content: space-around;
+            margin: 60px 0px 30px 0px;
+        }
+    }
+    @media (max-width: 789px){
+        .about-main{
+            padding: 0 auto;
+            align-items: center;
+            }
+        .about-text {
+            text-align: center;
+            padding: 0 auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-btn{
+            align-items: center;
+            padding: 0 auto;
+            justify-content: center;
+        }
+        .info-bloks{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .info{
+            margin-left: 20px;  
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+        }
+        .logo{
+            margin: 0 auto;
+            text-align: center;
+        }
+        .navlinks{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        .links{
+            margin-top: 3px;
+        }
+        .join{
+            margin-right: 105px;
+            margin-top: 10px;
+            max-height: 40px;
+            max-width: 100px;
+        }
+        .foot{
+            display: flex;
+            justify-content: space-around;
+            margin: 60px 0px 30px 0px;
+        }
+    }
+@media (max-width: 576px){
+    .about-text h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .about-text h4{
+        font-size: 30px;
+    }
+}
